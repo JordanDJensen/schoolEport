@@ -3,15 +3,61 @@ body{
     color: white;
 }
 
+/* Main page */
 #me{
   height: 300px;
   float: right;
-  
 }
 
-.middle{
-    overflow: auto;
-}
 p{
     float: right;
+}
+
+#mj{
+    width: 300px;
+}
+
+ h2, h4{
+    text-align: center;
+}
+
+.myGoals{
+    margin-left: 100px;
+}
+
+/* Navigation */
+.nav-item{
+    margin-left: 70px;
+    height: 25px;
+    
+}
+
+.nav-item:hover{
+    background-color: #1E5180;
+    text-decoration: none;
+    
+}
+.link{
+    color: white;
+    list-style-type: none;
+}
+.nav-pills{
+     background-color: #3A6B9E;
+    width: 60%;
+    margin-left: 250px;
+    padding-right: 70px; 
+  
+   
+    color: white;
+   
+    text-align: center;
+    text-decoration: none;
+    
+   
+    
+}
+.link:hover{
+    color:white;
+    width: 100%;
+    
 }

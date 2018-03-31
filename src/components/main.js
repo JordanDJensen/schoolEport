@@ -1,22 +1,22 @@
 import React from 'react';
+import Navigation from "./navigation";
 
 class Main extends React.Component {
     render() {
         return (
-            <div>
-                <div className="row">
-                    <div className="col-lg-4">
+            <div className="container-fluid home">
+                <div className="row programing">
+                    <div className="col-lg-12">
                         <h1>Jordan Jensen's Eportfolio</h1>
                     </div>
                 </div>
-
+                
                 <div className="row">
-                    <div className="col-lg-6 offset-lg-4">
-                        <h1>Welcome to my Eportfolio</h1>
-                       
+                    <div className="col-lg-4 offset-lg-4">
+                        <h2>Welcome to my Eportfolio</h2>
                     </div>
                 </div>
-
+                <Navigation/>
                 <div className="row">
                     <div className="col-lg-10 offset-lg-1">
                     <p> My name is Jordan Jensen and I am here to receive my Assoicates of Science at Salt Lake Community College. 
@@ -26,7 +26,7 @@ class Main extends React.Component {
 
                 <div className="row ">
                     <div className="col-lg-6">
-                        <img id="me"src="/images/Jordan.JPG"/>
+                        <img id="me"src="/images/Jordan.JPG" alt="Jordan Jensen"/>
                     </div>
                 
                     <div className="col-lg-6">
@@ -45,17 +45,19 @@ class Main extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-6 offset-lg-4">
+                    <div className="col-lg-6 offset-lg-5">
                         <h1>Favorite Quotes</h1>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-lg-3 offset-lg-2">
+                        <img id="mj" src="/images/mj.png" alt="Michale Jordan "/>
                         <p>"Some people want it to happen, Some wish it would happen, others MAKE IT HAPPEN." - Michael Jordan </p>
                     </div>
 
                     <div className="col-lg-3 offset-lg-2">
+                        <img src="/images/baberuth.jpeg" alt="Babe Ruth"/>
                         <p>"It's hard to beat a person who never GIVES UP." -Babe Ruth</p>
                     </div>
                 </div>
