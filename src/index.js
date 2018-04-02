@@ -4,7 +4,7 @@ import "react-bootstrap";
 import { Route, HashRouter, Switch } from "react-router-dom";
 
 //components
-
+import Navigation from "./components/navigation";
 import Main from "./components/main";
 import Goals from "./components/goals";
 import Course from "./components/course";
@@ -20,6 +20,7 @@ class App extends React.Component{
             <div >
                 <HashRouter>
                     <div>
+                        <Navigation/>
                         <Switch>
                             <Route exact path="/" component={Main}/>
                             <Route exact path="/goals" component={Goals}/>

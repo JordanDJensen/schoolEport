@@ -1,19 +1,19 @@
 import React from 'react';
-import Navigation from "./navigation";
+
 
 
 class Goals extends React.Component {
     render() {
         return (
             <div className="container-fluid goals">
-               <Navigation/>
+        
                <div className="row go">
                    <div className="col-lg-4 offset-lg-4">
                        <h2>Goals & Outcome</h2>
                    </div>
                </div>
                <div className="row term">
-                    <div>
+                    <div className="offset-lg-1 col-lg-4">
                         <h4 className="go">Short-term goals</h4>
                         <ul className="myGoals">
                             <li>Obtain my Associates by 2018</li>
@@ -22,7 +22,7 @@ class Goals extends React.Component {
                             <li>Find a internship in web development</li>
                         </ul>
                     </div>
-                    <div className="offset-lg-4 col-lg-4">
+                    <div className=" offset-lg-1 col-lg-4">
                         <h4>Long-Term goals</h4>
                         <ul>
                             <li className="myGoals">Graduate from college in 4 years</li>
@@ -38,7 +38,7 @@ class Goals extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="offset-lg-2 col-lg-8">
+                    <div className="offset-lg-2 col-lg-7 slcc">
                         <p>Students communicate effectively. This includes developing critical literacies—reading, writing, speaking, 
                             listening, visual understanding—that they can apply in various contexts; Organizing and presenting ideas 
                             and information visually, orally, and in writing according to standard usage; Understanding and using the 

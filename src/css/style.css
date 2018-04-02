@@ -7,6 +7,13 @@ body{
 #me{
   height: 300px;
   float: right;
+  margin-top: 100px;
+}
+.programing{
+   background-image: url("/images/codeImage.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
 }
 
 p{
@@ -20,16 +27,39 @@ p{
  h2, h4{
     text-align: center;
 }
+.jordan{
+  
+    height: 150px;
+    width: 60%;
+    margin-top: 100px; 
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+.about, .slcc, .babe{
+    text-align: justify;
+}
+
+.favQ{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 .myGoals{
     margin-left: 100px;
 }
 
+
+
 /* Navigation */
 .nav-item{
     margin-left: 70px;
     height: 25px;
-    
+}
+
+.nav{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .nav-item:hover{
@@ -37,27 +67,28 @@ p{
     text-decoration: none;
     
 }
+
 .link{
     color: white;
     list-style-type: none;
 }
+
 .nav-pills{
      background-color: #3A6B9E;
     width: 60%;
     margin-left: 250px;
     padding-right: 70px; 
-  
-   
     color: white;
-   
     text-align: center;
     text-decoration: none;
-    
-   
-    
 }
+
 .link:hover{
     color:white;
     width: 100%;
-    
+}
+
+
+.spring{
+    margin-left: 45px;
 }
